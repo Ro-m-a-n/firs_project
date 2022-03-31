@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Acrom-Light";
+  src: url("../fonts/Acrom-Light.woff") format("woff2");
+   }
+   @font-face {
+    font-family: "Acrom-Bold";
+    src: url("../fonts/Acrom-Bold.woff") format("woff2");
+     }
+  
+
+body {
+  background-color: azure;
+  font-family: Acrom-Light;
+}
+
+* {
+  margin: 0;
+}
+
+.headerWhite {
+  height: 55px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 25px;
+  font-weight: 450;
+}
+
+.navbar {
+  width: 100%;
+  height: 115px;
+  background-color: black;
+  position: fixed;
+  margin-top: 55px;
+}
+.navbar .conteiner {
+  height: inherit;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.navbar-wrap {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  z-index: 999;
+  
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  padding: 40px;
+  color: white;
+  font-size: 25px;
+}
+.navbar-menu a:hover {
+  color: yellow;
+  transition-delay: 0.3s;
+}
+
+.makeapp {
+  font-family: Acrom-Bold;
+  display: flex;
+  z-index: 999;
+  text-decoration: none;
+  padding: 10px 19px;
+  margin-left: 60px;
+  background-color: yellow;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+  box-sizing: border-box;
+  }
+  .makeapp:hover {
+    box-shadow: 0px 0px 20px white;
+  }

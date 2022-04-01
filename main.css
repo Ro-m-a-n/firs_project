@@ -85,8 +85,4 @@ body {
   .makeapp:hover {
     box-shadow: 0px 0px 20px white;
   }
-  .red_title {
-    position: absolute;
-    top: 50%;
-    color: rgb(0, 0, 0);
-  }
+  

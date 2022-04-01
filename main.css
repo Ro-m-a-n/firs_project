@@ -1,15 +1,22 @@
 @font-face {
   font-family: "Acrom-Light";
   src: url("../fonts/Acrom-Light.woff") format("woff2");
-   }
-   @font-face {
-    font-family: "Acrom-Bold";
-    src: url("../fonts/Acrom-Bold.woff") format("woff2");
-     }
-  
+}
+@font-face {
+  font-family: "Acrom-Bold";
+  src: url("../fonts/Acrom-Bold.woff") format("woff2");
+}
+@font-face {
+  font-family: "Acrom-Regular";
+  src: url("../fonts/Acrom-Regular.woff") format("woff2");
+}
+@font-face {
+  font-family: "Xolonium-Regular";
+  src: url("../fonts/Xolonium-Regular.woff") format("woff2");
+}
 
 body {
-  background-color: azure;
+  background-color: rgb(255, 243, 132);
   font-family: Acrom-Light;
 }
 
@@ -25,6 +32,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 0;
+  z-index: 50;
 }
 .title {
   font-size: 25px;
@@ -36,7 +45,8 @@ body {
   height: 115px;
   background-color: black;
   position: fixed;
-  margin-top: 55px;
+  top: 55px;
+  z-index: 50;
 }
 .navbar .conteiner {
   height: inherit;
@@ -54,7 +64,6 @@ body {
   list-style: none;
   display: flex;
   z-index: 999;
-  
 }
 
 .navbar-menu a {
@@ -81,12 +90,43 @@ body {
   font-weight: 800;
   color: black;
   box-sizing: border-box;
-  }
-  .makeapp:hover {
-    box-shadow: 0px 0px 20px white;
-  }
-  .red_title {
-    position: absolute;
-    top: 50%;
-    color: rgb(0, 0, 0);
-  }
+}
+.makeapp:hover {
+  box-shadow: 0px 0px 20px white;
+}
+
+.education {
+  height: calc(100vh - 170px);
+  width: 100%;
+  background-color: rgb(247, 251, 255);
+  margin-top: 170px;
+  position: absolute;
+}
+.educationWrap {
+  height: calc(100vh - 170px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageWrap {
+  display: flex;
+}
+.textAndButton {
+  height: inherit;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+.educationHeader {
+  font-family: "Xolonium-Regular";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.educationText {
+  font-family: "Acrom-Regular";
+  font-size: 18px;
+  text-align: justify;
+}

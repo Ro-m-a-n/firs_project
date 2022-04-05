@@ -1,0 +1,47 @@
+.get {
+  width: 100%;
+  background-color: yellow;
+}
+.getWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.getIconWrap {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.fa-brands {
+  color: rgb(0, 0, 0);
+  margin: 0px 5px;
+  font-size: 45px;
+}
+.fa-brands:hover {
+  margin: 2.5px;
+  font-size: 50px;
+}
+.phrase {
+  margin-left: 65px;
+  margin-right: 70px;
+  font-family: "Acrom-Regular";
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.getButton {
+  font-family: Acrom-Bold;
+  z-index: 1;
+  text-decoration: none;
+  padding: 10px 19px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  color: yellow;
+  box-sizing: border-box;
+}
+.getButton:hover {
+  box-shadow: 0px 0px 15px rgb(29, 27, 27);
+  color: white;
+}

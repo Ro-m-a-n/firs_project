@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Xolonium-Bold";
+  src: url("../fonts/Xolonium-Boldr.woff") format("woff2");
+}
+.module {
+  width: 100%;
+  height: calc(100vh - 170px);
+}
+.moduleBlack {
+  background-color: black;
+  height: calc(100vh - 170px - 100px);
+}
+.moduleWhite {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.moduleBlackWrap {
+  height: calc(100vh - 170px - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.moduleTextWrap {
+  display: flex;
+  color: white;
+}
+.moduleTextWrap li:first-child {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-family: "Xolonium-Bold";
+  color: yellow;
+}
+.moduleTextWrap li {
+  font-size: 18px;
+  font-family: "Acrom-Regular";
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.moduleTextWrap li:hover {
+  color: yellow;
+}
+.moduleTextWrap ul {
+  margin: 0 30px;
+}
+.moduleLogo {
+  width: 300px;
+}

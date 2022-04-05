@@ -64,6 +64,7 @@ body {
   list-style: none;
   display: flex;
   z-index: 999;
+  flex-wrap: nowrap;
 }
 
 .navbar-menu a {
@@ -100,7 +101,6 @@ body {
   width: 100%;
   background-color: rgb(247, 251, 255);
   margin-top: 170px;
-  position: absolute;
 }
 .educationWrap {
   height: calc(100vh - 170px);
@@ -113,10 +113,10 @@ body {
 }
 .textAndButton {
   height: inherit;
-  width: 450px;
+  width: 420px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-left: 30px;
 }
@@ -129,4 +129,82 @@ body {
   font-family: "Acrom-Regular";
   font-size: 18px;
   text-align: justify;
+  word-spacing: 10px;
+}
+.educationButton {
+  font-family: Acrom-Bold;
+  z-index: 1;
+  text-decoration: none;
+  padding: 10px 19px;
+  background-color: yellow;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+  box-sizing: border-box;
+}
+.educationButton:hover {
+  box-shadow: 0px 0px 15px rgb(29, 27, 27);
+}
+.advantage {
+  width: 100%;
+  height: calc(100vh - 170px);
+  background-color: black;
+}
+.advantageWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 170px);
+}
+.advantageHeader {
+  font-family: "Xolonium-Regular";
+  font-size: 30px;
+  color: yellow;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.advantagePairWrap {
+  width: 1400px;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.advantageImageTextWrap {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 440px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.advantageImageBackground {
+  width: 135px;
+  height: 135px;
+  background-color: yellow;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  border-radius: 15px;
+}
+.advantageImage {
+  height: 100px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  transform: rotate(-45deg);
+}
+
+.advantageText {
+  margin-top: 60px;
+  color: white;
+  font-family: "Acrom-Regular";
+  font-size: 18px;
+  text-align: center;
+  width: 130px;
 }

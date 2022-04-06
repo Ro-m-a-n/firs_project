@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   padding: 80px 0;
+  /* make width with percentage */
 }
 .getIconWrap {
   height: 50px;

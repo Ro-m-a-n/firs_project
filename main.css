@@ -15,6 +15,7 @@
   src: url("../fonts/Xolonium-Regular.woff") format("woff2");
 }
 
+/* Add sans serif to all fonts */
 body {
   background-color: rgb(255, 243, 132);
   font-family: Acrom-Light;
@@ -48,6 +49,7 @@ body {
   top: 55px;
   z-index: 50;
 }
+/* ContAiner should be separate class */
 .navbar .conteiner {
   height: inherit;
   max-width: 1400px;
@@ -77,7 +79,7 @@ body {
   color: yellow;
   transition-delay: 0.3s;
 }
-
+/* Remove z-index and read about box sizing */
 .makeapp {
   font-family: Acrom-Bold;
   display: flex;
@@ -152,17 +154,20 @@ body {
   background-color: black;
 }
 .advantageWrap {
+  /* No display flex just text align + padding*/
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: calc(100vh - 170px);
 }
+/* Separate class for header + margin */
 .advantageHeader {
   font-family: "Xolonium-Regular";
   font-size: 30px;
   color: yellow;
   text-transform: uppercase;
+  /* Useless styles */
   display: flex;
   justify-content: center;
 }

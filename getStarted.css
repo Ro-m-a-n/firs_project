@@ -18,6 +18,7 @@
   color: rgb(0, 0, 0);
   margin: 0px 5px;
   font-size: 45px;
+  cursor: pointer;
 }
 .fa-brands:hover {
   margin: 2.5px;
@@ -26,12 +27,12 @@
 .phrase {
   margin-left: 65px;
   margin-right: 70px;
-  font-family: "Acrom-Regular";
+  font-family: "Acrom-Regular", sans-serif;
   font-size: 25px;
   text-transform: uppercase;
 }
 .getButton {
-  font-family: Acrom-Bold;
+  font-family: Acrom-Bold, sans-serif;
   z-index: 1;
   text-decoration: none;
   padding: 10px 19px;

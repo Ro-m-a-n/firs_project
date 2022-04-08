@@ -1,10 +1,10 @@
 @media (max-wight: 1400px) {
-  .conteiner {
+  .container {
     max-width: 1200px;
   }
 }
 @media (max-wight: 1300px) {
-  .conteiner {
+  .container {
     max-width: 1000px;
   }
 

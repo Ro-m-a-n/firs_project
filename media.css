@@ -1,0 +1,17 @@
+@media (max-wight: 1400px) {
+  .conteiner {
+    max-width: 1200px;
+  }
+}
+@media (max-wight: 1300px) {
+  .conteiner {
+    max-width: 1000px;
+  }
+
+  .educationWrap {
+    flex-direction: column;
+  }
+  .textAndButton {
+    width: 70%;
+  }
+}
